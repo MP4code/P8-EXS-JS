@@ -9,15 +9,17 @@
 
 <!-- Formulaire sans étiquette pour les champs -->
 <form>
+    <label for="name">Nom</label>
     <input id="name" type="text" placeholder="Entrez votre nom">
+    <label for="email">Votre adresse e-mail</label>
     <input id="email" type="email" placeholder="Entrez votre adresse e-mail">
-    <button type="submit">Envoyer</button>
+    <button type="submit" aria-label="Envoyer le formulaire">Envoyer</button>
 </form>
 
 <!-- Image sans attribut alt -->
-<img src="assets/image.png" height=250>
+<img src="assets/image.png" alt="ceci est une image" height=250>
 
 <!-- Lien sans texte descriptif -->
-<a href="#">Cliquez ici</a>
+<a href="#" aria-label="Aller vers le haut de la page">Cliquez ici</a>
 </body>
 </html>
